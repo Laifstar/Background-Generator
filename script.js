@@ -28,11 +28,11 @@ function randomColor(){
 	var b2 = randomInteger(255);
 
 	let hr1 = r1.toString(16).padStart(2, "0");
-	let hr2 = r2.toString(16).padStart(2, "0");
 	let hg1 = g1.toString(16).padStart(2, "0");
-	let hg2 = g1.toString(16).padStart(2, "0");
 	let hb1 = b1.toString(16).padStart(2, "0");
-	let hb2 = b1.toString(16).padStart(2, "0");
+	let hr2 = r2.toString(16).padStart(2, "0");
+	let hg2 = g2.toString(16).padStart(2, "0");
+	let hb2 = b2.toString(16).padStart(2, "0");
 
 	color1.value = ("#"+hr1+hg1+hb1);
 	color2.value = ("#"+hr2+hg2+hb2);
